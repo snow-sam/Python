@@ -1,0 +1,321 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    padding: 10px;
+}
+
+#header h1 {
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    margin: auto 0;
+
+}
+#header img {
+    max-height: 60px;
+}
+
+#slide {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url(fundo.jpg);
+    background-size: 100%;
+    height: 200px;
+}
+#slide button {
+    align-self: center;
+    height: 50px;
+    width: 140px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 6px;
+    box-shadow:  0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    transition: 400ms;
+}
+#slide button:hover {
+    background-color: white;
+    color: black;
+    border: 1px black;
+}
+
+#Catalogo {
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+
+#catalogo {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    font-style: normal;
+}
+#item {
+    display: flex;
+    justify-content: space-evenly;
+}
+#item a{
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+}
+#item img {
+    max-height: 200px;
+    width: 200px;
+    margin-top: 64px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    image-rendering: auto; 
+    image-rendering: crisp-edges; 
+    image-rendering: pixelated;
+}
+#item h3{
+    margin-bottom: 64px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+#Sobre {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+#sobre {
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 43px;
+    text-decoration-line: underline;
+    text-underline-position: under;
+}
+#emojis {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 36px;
+}
+#emojis h2 {
+    width: 233px;
+    height: 51px;
+}
+
+#descriptionsobre {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+#descriptionsobre h3 {
+    font-size: 12px;
+    line-height: 14px;
+    width: 233px;
+    height: 78px;
+    font-style: normal;
+    font-weight: 500px;
+    margin-bottom: 180px;
+}
+
+#media ul {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    left: 50%;
+    bottom: 16%;
+    float: left;
+}
+
+#media ul li {
+    list-style: none;
+    margin: 0 80px;
+}
+#media ul li a .fab {
+    font-size: 40px;
+    color: #262626;
+    line-height: 60px;
+    transition: .5s;
+}
+#media ul li a {
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: rgba(180, 180, 180, 0.1);
+    text-align: center;
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+    transition: .5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+}
+#media ul li a:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    transition: .5s;
+    transform: rotate(0deg) skewy(-45deg);
+}
+#media ul li a:after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background: #b1b1b1;
+    transition: .5s;
+    transform: rotate(0deg) skewx(-45deg);
+}
+
+#media ul li a:hover{
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px,-20px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+}
+
+#media ul li:hover .fab{
+    color: #fff;
+}
+
+#media ul li:hover:nth-child(1) a {
+    background: #3b5999;
+}
+
+#media ul li:hover:nth-child(2) a {
+    background: #25D366;
+}
+
+#media ul li:hover:nth-child(3) a {
+    background: #e4405f;
+}
+
+#media ul li:hover:nth-child(1) a:before {
+    background: #2e4a86;
+}
+
+#media ul li:hover:nth-child(2) a:before {
+    background: #15b952;
+}
+
+#media ul li:hover:nth-child(3) a:before {
+    background: #d02d4c;
+}
+
+#media ul li:hover:nth-child(1) a:after {
+    background: #4a69ad;
+}
+
+#media ul li:hover:nth-child(2) a:after {
+    background: #20e66a;
+}
+
+#media ul li:hover:nth-child(3) a:after {
+    background: #f1395c;
+}
+
+#Footer{
+    bottom: 0px;
+    width: 100%;
+}
+#footer {
+    display: block;
+    justify-content: start;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.685);
+    float: bottom;
+    padding: 20px;
+}
+#footer h3 {
+    padding-left: 10px;
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+#footer h3:nth-child(4), #footer h3:nth-child(5) {
+    float: left;
+}
+
+/* Geladinhos page */
+
+#Geladinhos #fila, #Geladinhos #fila2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 60px 20px;
+}
+
+#Geladinhos #fila2 {
+    margin-bottom: 40px;
+}
+
+#Geladinhos .geladinhos a{
+    text-decoration: none;
+}
+#Geladinhos .geladinhos h2 {
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 17px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+#Geladinhos .geladinhos h3 {
+    font-size: 12px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.61);
+    text-align: center;
+    margin: 0;
+}
+#Geladinhos .geladinhos img {
+    max-width: 125px;
+    max-height: 119px;
+}
+#indice {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 128px;
+}
+
+#indice a {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-decoration: black;
+    padding: 10px;
+    
+}
