@@ -2,23 +2,24 @@ from InstagramAPI import InstagramAPI
 from time import sleep
 api = InstagramAPI('teste131570', 'samucas5')
 api.login()
-
-
-
 usuarios = []
 
-usuar = open("usuarios.txt", "r")
-linhas = usuar.readlines()
-for linha in linhas:
-    usuarios.append(linha[:-2])
-usuar.close()
+'''
+api.getMediaLikers(2295103064401965110)
+result = api.LastJson
 
+for i in result['users']:
+    usuarios.append(i['pk'])
+
+
+print(usuarios)
 for usuario in usuarios:
-    try:
-        api.follow(usuario)
-        sleep(36)
-        print('Follow')
-    except:
-        print('erro')
+    with open('usuarios.txt', 'a') as arquivo:
+        arquivo.write(str(usuario) + '\n')
+'''        
 
+result = api.getTotalFollowings(18271137076)
 
+for user in result:
+    with open ('sigo.txt', 'a') as arquivo:
+        arquivo.write(str(user['pk']) + '\n')
