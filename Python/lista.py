@@ -1,8 +1,24 @@
-import csv
+from InstagramAPI import InstagramAPI
+from time import sleep
+api = InstagramAPI('teste131570', 'samucas5')
+api.login()
 
-arquivo = open('barcodes.csv')
 
-linhas = csv.reader(arquivo)
 
+usuarios = []
+
+usuar = open("usuarios.txt", "r")
+linhas = usuar.readlines()
 for linha in linhas:
-    print(linha[1])
+    usuarios.append(linha[:-2])
+usuar.close()
+
+for usuario in usuarios:
+    try:
+        api.follow(usuario)
+        sleep(36)
+        print('Follow')
+    except:
+        print('erro')
+
+
