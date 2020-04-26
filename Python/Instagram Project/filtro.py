@@ -1,15 +1,3 @@
-import pprint
-from InstagramAPI import InstagramAPI
-from time import sleep
-'''
-api = InstagramAPI('_life.motivation', 'samucas5')
-api.login()
-lista = []
-captions = []
-'''
-
-
-
 def limparlista():
     usuarios = []
     sigo = []
@@ -41,5 +29,6 @@ def limparlista():
 
     for pessoa in newlist:
         with open('usuariosn.txt', 'a') as arquivo:
-            arquivo.write(str(pessoa), '\n')
+            arquivo.write(str(pessoa)+ '\n')
 
+limparlista()
