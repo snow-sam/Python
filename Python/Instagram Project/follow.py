@@ -28,7 +28,7 @@ def follow():
         try:
             api.follow(user)
             count += 1
-            if checkhour() == '20' and checkminute() == '00':
+            if checkhour() == '23':
                 break
             else:
                 sleep(36)
