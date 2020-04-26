@@ -31,4 +31,3 @@ def limparlista():
         with open('usuariosn.txt', 'a') as arquivo:
             arquivo.write(str(pessoa)+ '\n')
 
-limparlista()
