@@ -1,0 +1,21 @@
+2020-04-27 15:56:39,082 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-04-27 15:56:39,083 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Simome\AppData\Local\Programs\Python\Python36\lib\site-packages\instabot\bot\bot.py
+2020-04-27 15:56:39,083 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-04-27 15:56:39,084 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-04-27 15:56:39,084 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Simome\Desktop\git\Python\Python\Instagram Project/config/teste131570_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=916281c0-c0de-4b38-bd31-613dfc53a837
+- uuid=326ee2c7-3e45-4f5e-aa10-4440597b5b8e
+- client_session_id=df2c0b19-ab25-4c75-98e1-c2c27cb7956b
+- device_id=android-ad9c377756647719
+2020-04-27 15:56:39,085 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-04-27 15:56:40,318 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-04-27 15:56:40,723 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-04-27 15:56:40,728 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'teste131570'!
+2020-04-27 15:56:40,731 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Simome\Desktop\git\Python\Python\Instagram Project/config/teste131570.checkpoint
+2020-04-27 15:56:43,125 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/motivação/?max_id=&rank_token=33452870298_326ee2c7-3e45-4f5e-aa10-4440597b5b8e&ranked_content=true& returned response: <Response [200]>
+2020-04-27 15:56:43,906 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/motivação/?max_id=QVFDaXVzc0pYQVZWci0tUUdVVnVJNlFuS1BiaC1KZGVjZEhUbWtUS1d1TUZvMk9IUEs5dXh4cTM4ZjMwYXBzYklqOHVtQXJIckFWcjF3aGZiOW55aC1uLQ==&rank_token=33452870298_326ee2c7-3e45-4f5e-aa10-4440597b5b8e&ranked_content=true& returned response: <Response [200]>
+2020-04-27 15:56:44,483 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/motivação/?max_id=QVFCTU9DMDFENW42QVhTS25kblJZRVVqejMtLXlGYXh1cUVNMHFIbjZxZHY3dnFXTGh2NHJYS0FQYmpWTG10c0Y2aktUX2M0MjdlRzRtMUJ3cEVKeFNMUA==&rank_token=33452870298_326ee2c7-3e45-4f5e-aa10-4440597b5b8e&ranked_content=true& returned response: <Response [200]>
+2020-04-27 15:56:45,233 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/motivação/?max_id=QVFDNV9UR0RuUUpTTEFnMFRXcUFNMy12NE05XzAxalp3LWt5U0NVeUxpT2x4bVA1UDB2RjdjLVAzV0drejJ0c1NvMUdwZ1ZreGVob2t5WkkzRmhpMUcyag==&rank_token=33452870298_326ee2c7-3e45-4f5e-aa10-4440597b5b8e&ranked_content=true& returned response: <Response [200]>
+2020-04-27 15:56:45,246 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Simome\Desktop\git\Python\Python\Instagram Project/config/teste131570.checkpoint
+2020-04-27 15:56:45,248 - instabot version: 0.117.0 (bot) - INFO - Total requests: 40
