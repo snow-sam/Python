@@ -1,3 +1,4 @@
+import os
 def limparlista():
     usuarios = []
     sigo = []
@@ -30,4 +31,5 @@ def limparlista():
     for pessoa in newlist:
         with open('usuariosn.txt', 'a') as arquivo:
             arquivo.write(str(pessoa)+ '\n')
+
 

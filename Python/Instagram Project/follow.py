@@ -37,8 +37,3 @@ def follow():
 
     with open ('userseguidos.txt', 'w') as arquivo:
         arquivo.write('Foram seguidos hoje: ' + str(count))
-
-    
-
-
-    
