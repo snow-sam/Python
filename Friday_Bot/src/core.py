@@ -1,6 +1,6 @@
 from telegram.ext import CommandHandler, Filters, MessageHandler, Updater
-
-from conf.settings import BASE_API_URL, TELEGRAM_TOKEN
+import requests
+from conf.settings import TELEGRAM_TOKEN
 from os import path
 
 
@@ -21,6 +21,16 @@ def change(bot, update, args):
         text='Feito'
     )
 
+def getbtc(bot, update):
+    url = "https://alpha-vantage.p.rapidapi.com/query"
+    querystring = {"from_currency":"BTC","function":"CURRENCY_EXCHANGE_RATE","to_currency":"BRL"}
+    headers = {'x-rapidapi-host': "alpha-vantage.p.rapidapi.com",'x-rapidapi-key': "43c9e97d3amshf5f23657734ed50p130a9djsn49d7e7deadc0"}
+    response = requests.request("GET", url, headers=headers, params=querystring)
+    texto = response.text
+    bot.send_message(
+        chat_id=update.message.chat_id,
+        text=texto
+    )
 
 def unknown(bot, update):
     response_message = "Comando Invalido"
@@ -42,7 +52,7 @@ def main():
         CommandHandler('change', change, pass_args=True)
     )
     dispatcher.add_handler(
-        MessageHandler(Filters.command, unknown)
+        CommandHandler('getbtc', getbtc)
     )
 
     updater.start_polling()

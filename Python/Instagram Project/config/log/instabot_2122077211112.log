@@ -1,0 +1,18 @@
+2020-04-28 02:53:36,577 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-04-28 02:53:36,578 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Simome\AppData\Local\Programs\Python\Python36\lib\site-packages\instabot\bot\bot.py
+2020-04-28 02:53:36,583 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-04-28 02:53:36,583 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-04-28 02:53:36,583 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Simome\Desktop\git\Python\Python\Instagram Project/config/teste131570_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=916281c0-c0de-4b38-bd31-613dfc53a837
+- uuid=326ee2c7-3e45-4f5e-aa10-4440597b5b8e
+- client_session_id=bdb0370f-ce45-42c2-90b1-ebe44bf200fe
+- device_id=android-ad9c377756647719
+2020-04-28 02:53:36,586 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-04-28 02:53:37,824 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-04-28 02:53:38,230 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-04-28 02:53:38,232 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'teste131570'!
+2020-04-28 02:53:38,233 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Simome\Desktop\git\Python\Python\Instagram Project/config/teste131570.checkpoint
+2020-04-28 02:53:39,567 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2295874451742499087/info/ returned response: <Response [200]>
+2020-04-28 02:53:39,699 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Simome\Desktop\git\Python\Python\Instagram Project/config/teste131570.checkpoint
+2020-04-28 02:53:39,703 - instabot version: 0.117.0 (bot) - INFO - Total requests: 1089

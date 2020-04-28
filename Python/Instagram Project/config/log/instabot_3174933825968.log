@@ -1,0 +1,33 @@
+2020-04-28 02:52:36,337 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-04-28 02:52:36,340 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Simome\AppData\Local\Programs\Python\Python36\lib\site-packages\instabot\bot\bot.py
+2020-04-28 02:52:36,349 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-04-28 02:52:36,350 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-04-28 02:52:36,350 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Simome\Desktop\git\Python\Python\Instagram Project/config/teste131570_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=916281c0-c0de-4b38-bd31-613dfc53a837
+- uuid=326ee2c7-3e45-4f5e-aa10-4440597b5b8e
+- client_session_id=96314cf6-a38e-4a0f-8272-001f29f7d33b
+- device_id=android-ad9c377756647719
+2020-04-28 02:52:36,352 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-04-28 02:52:37,717 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-04-28 02:52:38,120 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-04-28 02:52:38,638 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-04-28 02:52:38,944 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-04-28 02:52:39,348 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-04-28 02:52:39,655 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-04-28 02:52:40,166 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-04-28 02:52:40,475 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-04-28 02:52:40,784 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-04-28 02:52:40,787 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'teste131570'!
+2020-04-28 02:52:40,787 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Simome\Desktop\git\Python\Python\Instagram Project/config/teste131570.checkpoint
+2020-04-28 02:52:44,950 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/22958744517424990875583451640/info/ returned response: <Response [500]>
+2020-04-28 02:52:44,950 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'Oops, an error occurred.\n'
+2020-04-28 02:52:44,950 - instabot version: 0.117.0 (api) - ERROR - Request returns 500 error!
+2020-04-28 02:52:44,968 - instabot version: 0.117.0 (api) - ERROR - Error checking for `feedback_required`, response text is not JSON
+2020-04-28 02:52:44,992 - instabot version: 0.117.0 (api) - INFO - Full Response: <Response [500]>
+2020-04-28 02:52:44,997 - instabot version: 0.117.0 (api) - INFO - Response Text: Oops, an error occurred.
+
+2020-04-28 02:52:44,997 - instabot version: 0.117.0 (api) - ERROR - Error unknown send request
+2020-04-28 02:52:44,998 - instabot version: 0.117.0 (bot_photo) - INFO - Media with `22958744517424990875583451640` is not downloaded.
+2020-04-28 02:52:45,006 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Simome\Desktop\git\Python\Python\Instagram Project/config/teste131570.checkpoint
+2020-04-28 02:52:45,006 - instabot version: 0.117.0 (bot) - INFO - Total requests: 1087

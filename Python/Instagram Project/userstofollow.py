@@ -18,3 +18,8 @@ def usertofollow(mediaId):
         with open('usuarios.txt', 'a') as arquivo:
             arquivo.write(str(usuario) + '\n')
             
+api = InstagramAPI('teste131570', 'samucas5')
+api.login()
+api.mediaInfo(2296896618743594286_7008520241)
+result = api.LastJson
+print(result)

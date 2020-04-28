@@ -1,0 +1,49 @@
+2020-04-28 00:44:57,617 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-04-28 00:44:57,618 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Simome\AppData\Local\Programs\Python\Python36\lib\site-packages\instabot\bot\bot.py
+2020-04-28 00:44:57,623 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-04-28 00:44:57,623 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-04-28 00:44:57,624 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Simome\Desktop\git\Python\Python\Instagram Project/config/teste131570_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=916281c0-c0de-4b38-bd31-613dfc53a837
+- uuid=326ee2c7-3e45-4f5e-aa10-4440597b5b8e
+- client_session_id=7c2f94b3-63fd-4d68-bc74-02e4dd9543bb
+- device_id=android-ad9c377756647719
+2020-04-28 00:44:57,625 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-04-28 00:44:59,000 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-04-28 00:44:59,332 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-04-28 00:44:59,571 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-04-28 00:44:59,815 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-04-28 00:45:00,124 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-04-28 00:45:00,373 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-04-28 00:45:00,814 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-04-28 00:45:01,046 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-04-28 00:45:01,303 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-04-28 00:45:01,312 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'teste131570'!
+2020-04-28 00:45:01,315 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Simome\Desktop\git\Python\Python\Instagram Project/config/teste131570.checkpoint
+2020-04-28 00:45:03,701 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/5583451640/info/ returned response: <Response [400]>
+2020-04-28 00:45:03,701 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "Media not found or unavailable", "status": "fail"}'
+2020-04-28 00:45:03,701 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-04-28 00:45:03,702 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: Media not found or unavailable
+2020-04-28 00:45:03,704 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-04-28 00:45:05,498 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/1393607350/info/ returned response: <Response [400]>
+2020-04-28 00:45:05,498 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "Media not found or unavailable", "status": "fail"}'
+2020-04-28 00:45:05,498 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-04-28 00:45:05,500 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: Media not found or unavailable
+2020-04-28 00:45:05,501 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-04-28 00:45:07,393 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/4268312928/info/ returned response: <Response [400]>
+2020-04-28 00:45:07,393 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "Media not found or unavailable", "status": "fail"}'
+2020-04-28 00:45:07,393 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-04-28 00:45:07,394 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: Media not found or unavailable
+2020-04-28 00:45:07,395 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-04-28 00:45:10,861 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/3102557008/info/ returned response: <Response [400]>
+2020-04-28 00:45:10,861 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "Media not found or unavailable", "status": "fail"}'
+2020-04-28 00:45:10,861 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-04-28 00:45:10,863 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: Media not found or unavailable
+2020-04-28 00:45:10,865 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-04-28 00:45:13,125 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/7008520241/info/ returned response: <Response [400]>
+2020-04-28 00:45:13,125 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "Media not found or unavailable", "status": "fail"}'
+2020-04-28 00:45:13,125 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-04-28 00:45:13,127 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: Media not found or unavailable
+2020-04-28 00:45:13,128 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-04-28 00:45:13,129 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Simome\Desktop\git\Python\Python\Instagram Project/config/teste131570.checkpoint
+2020-04-28 00:45:13,131 - instabot version: 0.117.0 (bot) - INFO - Total requests: 1086
