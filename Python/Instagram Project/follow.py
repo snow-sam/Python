@@ -21,19 +21,21 @@ def follow():
         usuarios.append(linha[:-2])
 
 
-    api = InstagramAPI('teste131570', 'samucas5')
+    api = InstagramAPI('_life.motivation', 'samucas5')
     api.login()
 
     for user in usuarios:
         try:
             api.follow(user)
             count += 1
-            if checkhour() == '23':
-                break
-            else:
-                sleep(36)
+            sleep(36)
         except:
             print('Erro em seguir usuario')
 
     with open ('userseguidos.txt', 'w') as arquivo:
         arquivo.write('Foram seguidos hoje: ' + str(count))
+
+
+api = InstagramAPI('_life.motivation', 'samucas5')
+api.login()
+api.follow(1317609263)

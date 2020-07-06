@@ -1,28 +1,20 @@
 import os
 def limparlista():
-    usuarios = []
-    sigo = []
-    newlist =[]
 
-    usuar = open("usuarios.txt", "r")
-    linhas = usuar.readlines()
-    for linha in linhas:
-        usuarios.append(linha[:-2])
-    usuar.close()
+    newlist = []
+    with open('usuarios.txt', 'r') as f:
+        usuarios = [line.strip() for line in f]
+    
+    with open('seguidos.txt', 'r') as f:
+        seguidos = [line.strip() for line in f]
 
-
-
-
-    sig = open("sigo.txt", "r")
-    linhas = sig.readlines()
-    for linha in linhas:
-        sigo.append(linha[:-2])
-    usuar.close()
+    with open('sigo.txt', 'r') as f:
+        sigo = [line.strip() for line in f]
 
     jafoi = 0
 
     for user in usuarios:
-        if user in sigo:
+        if user in sigo or user in seguidos:
             jafoi += 1
             print('Users Repetidos: ' ,jafoi)
         else:
@@ -31,5 +23,7 @@ def limparlista():
     for pessoa in newlist:
         with open('usuariosn.txt', 'a') as arquivo:
             arquivo.write(str(pessoa)+ '\n')
+    return
 
 
+limparlista()
